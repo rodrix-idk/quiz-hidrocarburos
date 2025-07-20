@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Hidrocarburos: Alcanos, Alquenos y Alquinos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="js/script.js" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="quiz-main-title" class="creative-title animated-underline">
+            Hidrocarburos: ¡Pon a Prueba tus Conocimientos!
+        </h1>
+
+        <div id="quiz-container">
+            <div id="question-area">
+                <p id="question"></p>
+                <div id="timer">Tiempo restante: <span id="time">15</span>s</div>
+                <div id="options-container">
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                    <button class="option-btn"></button>
+                </div>
+            </div>
+            <div id="feedback-area" class="hidden">
+                <p id="feedback-message"></p>
+                <p id="explanation"></p>
+                <button id="next-question-btn">Siguiente Pregunta</button>
+            </div>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <h2>¡Quiz Terminado!</h2>
+            <p>Tu puntuación final es: <span id="score">0</span> de 10</p>
+            <p id="motivational-message"></p>
+            <button id="restart-quiz-btn" class="button-pulse">Volver a Jugar</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
